@@ -1,0 +1,24 @@
+.animal:hover {
+    border: 3px solid black;
+    background: pink;
+}
+
+#add-animal:hover{
+    border: 3px solid black;
+    background: yellow;
+}
+
+#str1:hover{
+    border: 3px solid black;
+    background: blue;  
+}
+
+#pick:hover{
+    border: 3px solid black;
+    background: lightgreen;
+}
+
+#pick1:hover{
+    border: 3px solid black;
+    background: lightgreen;
+}
