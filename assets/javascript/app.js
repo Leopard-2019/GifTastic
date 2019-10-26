@@ -161,4 +161,8 @@ $(document).ready(function () {
         }
     };
     
+    $('#str1').on('click', function rStart() {
+        window.location.reload(false);
+    });
+    
 });
