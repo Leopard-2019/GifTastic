@@ -29,8 +29,3 @@ were also completed.
    * Each request should ADD 10 gifs to the page, NOT overwrite the existing gifs.
 
    3. List additional metadata (title, tags, etc) for each gif in a clean and readable format.
-
-
-   5. Allow users to add their favorite gifs to a `favorites` section.
-   
-   Not sure 100% was done as described above. Same goes for item #5. 
