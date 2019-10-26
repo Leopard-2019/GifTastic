@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // Initial array of movies
 
-    let animals = ["lion", "tiger", "gorila", "leopard", "elefant", "giraffe", "koala"];
+    let topics = ["lion", "tiger", "gorila", "leopard", "elefant", "giraffe", "koala"];
 
     // variable that define the number of gift to be initially displayed
 
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
         // Looping through the array of animals 
 
-        for (let i = 0; i < animals.length; i++) {
+        for (let i = 0; i < topics.length; i++) {
 
             // Then dynamicaly generating buttons for each animals  in the array.
 
@@ -32,11 +32,11 @@ $(document).ready(function () {
 
             // Adding a data-attribute
 
-            a.attr("data-animal", animals[i]);
+            a.attr("data-animal", topics[i]);
 
             // Providing the button's text with a value of the animals at index i
 
-            a.text(animals[i]);
+            a.text(topics[i]);
 
             // Adding the button to the HTML
 
@@ -58,7 +58,7 @@ $(document).ready(function () {
 
         // The animals from the textbox is then added to our array
 
-        animals.push(animals1);
+        topics.push(animals1);
 
         // calling addButtons which handles the processing of our movie array
         addButtons();
