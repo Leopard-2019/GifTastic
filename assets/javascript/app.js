@@ -10,9 +10,10 @@ $(document).ready(function () {
 
     // Function for displaying animals data
 
+    function addButtons() {
+        
     // Deleting the animals buttons prior to adding new animals buttons
     // (this is necessary otherwise we will have repeat buttons)
-    function addButtons() {
 
         $("#buttons-view").empty();
 
@@ -68,7 +69,7 @@ $(document).ready(function () {
 
     addButtons();
 
-
+    // function named "engine" that basically perform the AJAX request, contructs the queryURL
     $(document).on("click", ".animal", function engine() {
         // Grabbing and storing the data-animal property value from the button
 
@@ -82,7 +83,8 @@ $(document).ready(function () {
             animals2 + "&api_key=42AnQTx6o2pFP9hsR2BUpy0AcHLw4UEE&limit=" + a1;
 
 
-        // Performing an AJAX request with the queryURL
+        // Performing an AJAX request with the queryURL, and creates the 10 gifts as requested by the user everytime that click 
+        // on one of the button which animal name.
 
         $.ajax({
             url: queryURL,
@@ -107,7 +109,7 @@ $(document).ready(function () {
 
                     var animalDiv = $("<div>");
 
-                    // Creating a paragraph tag with the result item's rating
+                    // Creating a paragraph tag with the result item's rating, title and source.
 
                     var p = $("<p>").text("Rating: " + results[i].rating);
                     var p1 = $("<p>").text("Title: " + results[i].title);
@@ -142,11 +144,11 @@ $(document).ready(function () {
 
     });
 
-    //Click event on gifs with class of "netflixGiphy" executes pausePlayGifs function 
+    //Click event on gifs with class of "kinematic" executes sDynamic function.
 
     $(document).on("click", ".kinematic", sDynamic);
 
-    //Function accesses "data-state" attribute and depending on status, changes image source to "data-animate" or "data-still"
+    //Function accesses "state" attribute and depending on status, changes image source to "data-animate" or "data-static"
 
     function sDynamic() {
         var state = $(this).attr("state");
@@ -159,7 +161,7 @@ $(document).ready(function () {
         }
     };
 
-
+    //function that allows user to pick a gift already displayed, and copy / display it  into the favorites section. 
     $("#pick").on('click', function pickAnimal3() {
 
         $(document).on("click", ".kinematic", pickAnimalName);
@@ -176,6 +178,8 @@ $(document).ready(function () {
         };
     });
 
+    //function that allows users to removed any duplicated gift in the favorite section
+    
     $("#pick1").on('click', function () {
 
         $(document).on("click", ".kinematic1", pickAnimalName1);
@@ -185,6 +189,8 @@ $(document).ready(function () {
         };
     });
 
+    // function that allows users to re-start the whole app.
+    
     $('#str1').on('click', function rStart() {
         window.location.reload(false);
     });
