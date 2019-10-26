@@ -13,16 +13,6 @@
     background: blue;  
 }
 
-#pick:hover{
-    border: 3px solid black;
-    background: lightgreen;
-}
-
-#pick1:hover{
-    border: 3px solid black;
-    background: lightgreen;
-}
-
 #ttt{
     font-weight: bold;
     color:red
