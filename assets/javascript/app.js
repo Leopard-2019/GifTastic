@@ -160,39 +160,5 @@ $(document).ready(function () {
             $(this).attr("state", "static");
         }
     };
-
-    //function that allows user to pick a gift already displayed, and copy / display it  into the favorites section. 
-    $("#pick").on('click', function pickAnimal3() {
-
-        $(document).on("click", ".kinematic", pickAnimalName);
-
-        function pickAnimalName() {
-            let animalName1 = $(this).attr("src");
-            console.log(animalName1);
-            var animalDiv2 = $("<div>");
-            var animalImage2 = $("<img>");
-            animalImage2.addClass("kinematic1");
-            animalImage2.attr("src", animalName1);
-            animalDiv2.append(animalImage2);
-            $("#favorites").prepend(animalDiv2);
-        };
-    });
-
-    //function that allows users to removed any duplicated gift in the favorite section
     
-    $("#pick1").on('click', function () {
-
-        $(document).on("click", ".kinematic1", pickAnimalName1);
-
-        function pickAnimalName1() {
-            $(this).remove();
-        };
-    });
-
-    // function that allows users to re-start the whole app.
-    
-    $('#str1').on('click', function rStart() {
-        window.location.reload(false);
-    });
-
 });
