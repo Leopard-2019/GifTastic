@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    
     // Initial array of animals
 
     let topics = ["lion", "tiger", "gorila", "leopard", "elefant", "giraffe", "koala"];
@@ -130,12 +131,12 @@ $(document).ready(function () {
                     animalImage.attr("static-s", static);
                     animalImage.attr("animate-s", animated);
 
-                    // Appending the paragraph and image tag to the animalDiv
+                    // Appending the paragraphs and image tag to the animalDiv
 
                     animalDiv.append(p, p1, p2);
                     animalDiv.append(animalImage);
 
-                    // Prependng the animalDiv to the HTML page in the "#gifs-appear-here" div
+                    // Prependng the animalDiv to the HTML page in the "#images" div
 
                     $("#images").prepend(animalDiv);
                 }
@@ -160,6 +161,8 @@ $(document).ready(function () {
             $(this).attr("state", "static");
         }
     };
+    
+    //Function  to re-start the app.
     
     $('#str1').on('click', function rStart() {
         window.location.reload(false);
