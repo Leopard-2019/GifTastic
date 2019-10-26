@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    // Initial array of movies
+    // Initial array of animals
 
     let topics = ["lion", "tiger", "gorila", "leopard", "elefant", "giraffe", "koala"];
 
