@@ -24,6 +24,8 @@ module.exports = (app, db) => {
   app.get("/index", (req, res) => {
     console.log(db);
     db.cocktail.findAll({
+        attributes: ['drink'], 
+        include: [{model:db.images, attributes:['images']}]})
     })
       .then(cocktail => {
         console.log(cocktail);
