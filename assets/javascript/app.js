@@ -61,7 +61,7 @@ $(document).ready(function () {
 
         topics.push(animals1);
 
-        // calling addButtons which handles the processing of our movie array
+        // calling addButtons which handles the processing of our topics array
         addButtons();
     });
 
