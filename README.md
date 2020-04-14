@@ -21,11 +21,13 @@ were also completed.
 
 4. When the user clicks one of the still GIPHY images, the gif is animated. If the user clicks the gif again, it gift stop playing.
 
-![](assets/images/gif6.png)
-
 5. Under every gif, the rating, title and source are displayed.
 
-6. A form was added, so a value from a user input box can be input,  and adds it the  `topics` array. A function call was built, so it takes each topic in the array and remakes the buttons on the page.
+6. A form was added, so an additional animal from a user input box can be input,  and adds it the  `topics` array. A function call was built, so it takes each topic in the array and remakes the buttons on the page.
+
+![](assets/images/gif3.png)
+
+![](assets/images/gif4.png)
 
 7. The assignment was fully Deploy to Github Pages.
 
