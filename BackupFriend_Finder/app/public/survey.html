@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Setting the View-port -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Linking jQuery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    <title>Weird Friend Finder | Survey</title>
+
+</head>
+
+<body>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron" id="jumbotronSurvey">
+        <div class="container text-center">
+            <h1>Weird Friend Finder</h1>
+            <h2>Survey Questions</h2>
+        </div>
+    </div>
+
+    <!-- Main Page Content -->
+    <div class="container-fluid">
+        <div class="container">
+            <h3 style="font-weight: bold;">About You</h3>
+            <form>
+                <!-- NAME -->
+                <div class="form-group">
+                    <label for="newFriendName">
+                        <h4>Name (Required)</h4>
+                    </label>
+                    <input type="text" class="form-control" id="newFriendName" placeholder="Enter Your Name Here">
+                </div>
+                <!-- LINK TO PHOTO -->
+                <div class="form-group">
+                    <label for="newFriendPhotoLink">
+                        <h4>Link to Photo Image (Required)</h4>
+                    </label>
+                    <input type="url" class="form-control" id="newFriendPhotoLink"
+                        placeholder="Example: http://www.mysite.com/myimage.jpg">
+                </div>
+
+                <hr>
+
+                <!-- QUESTION 1 -->
+                <div class="form-group">
+                    <h3>Question 1</h3>
+                    <h4>Are you religious or spiritual?</h4>
+                    <select class="form-control" id="question1">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 2 -->
+                <div class="form-group">
+                    <h3>Question 2</h3>
+                    <h4> Do you usually stay friends with your exes?</h4>
+                    <select class="form-control" id="question2">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 3 -->
+                <div class="form-group">
+                    <h3>Question 3</h3>
+                    <h4>Do you judge a book by its cover?</h4>
+                    <select class="form-control" id="question3">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 4 -->
+                <div class="form-group">
+                    <h3>Question 4</h3>
+                    <h4>Would you relocate for love?</h4>
+                    <select class="form-control" id="question4">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 5 -->
+                <div class="form-group">
+                    <h3>Question 5</h3>
+                    <h4>Are you confrontational?</h4>
+                    <select class="form-control" id="question5">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 6 -->
+                <div class="form-group">
+                    <h3>Question 6</h3>
+                    <h4>Do you believe in second chances?</h4>
+                    <select class="form-control" id="question6">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 7 -->
+                <div class="form-group">
+                    <h3>Question 7</h3>
+                    <h4>Do you believe in fate?</h4>
+                    <select class="form-control" id="question7">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 8 -->
+                <div class="form-group">
+                    <h3>Question 8</h3>
+                    <h4>Have you ever seen something you can’t explain?</h4>
+                    <select class="form-control" id="question8">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 9 -->
+                <div class="form-group">
+                    <h3>Question 9</h3>
+                    <h4>Have you ever cried tears of joy?</h4>
+                    <select class="form-control" id="question9">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <!-- QUESTION 10 -->
+                <div class="form-group">
+                    <h3>Question 10</h3>
+                    <h4>Have you ever had dreams about a past life?</h4>
+                    <select class="form-control" id="question10">
+                        <option value="" style="display:none">Select one of the following options</option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+
+                <!-- SUBMIT BUTTON -->
+                <a data-toggle="modal" href="#myModal" id="btn1" class="btn btn-primary">Submit</a>
+
+            </form>
+        </div>
+    </div>
+    <!-- End Container Fluid -->
+
+    <!-- MODAL -->
+    <div class="modal fade" id="results-modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title" style= "text-align: center;"><strong>Your Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" src="" style="width:300px;height:300px;" alt="Your Match's Image">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container text-center" id="footer">
+            <a href="/api/friendList" style="color:black">API Friend List</a> |
+            <a href="https://github.com/Leopard-2019/Friend-Finder" style="color:black">GitHub Repo</a>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // Capture the user's input on the form with button on click event
+            $("#btn1").on("click", function () {
+                event.preventDefault();
+
+            // Store the user's input on the form with button on click event as objetc
+                var newFriend = {
+                    friendName: $('#newFriendName').val().trim(),
+                    friend_photo: $('#newFriendPhotoLink').val().trim(),
+                    scores: []
+                };
+
+                //For Loop that read each answer's response and sends it into the friend object
+                for (var i = 1; i <= 10; i++) {
+                    var newValue = parseInt($("#question" + i).val());
+                    newFriend.scores.push(parseInt(newValue));
+                }
+                var currentURL = window.location.origin;
+                $.post(currentURL + "/api/friendList", newFriend, function (data) {
+                    $("#match-name").text(data.name);
+                    $("#match-img").attr("src", data.photo);
+                    $("#results-modal").modal("toggle");
+                });
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
