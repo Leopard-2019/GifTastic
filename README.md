@@ -1,5 +1,9 @@
+# Giftastic #
+
 In this assignment,  the GIPHY API was used to make a dynamic web page that populates with gifs. I decided to use animals as 
 a topic.
+
+this app is deployed at:  https://leopard-2019.github.io/GifTastic/
 
 The first eight tasks were completed in order to meet the minimum requirement. In addition, some activities of the bonus section 
 were also completed.
@@ -30,4 +34,3 @@ were also completed.
 
    3. List additional metadata (title, tags, etc) for each gif in a clean and readable format.
    
-   https://leopard-2019.github.io/GifTastic/
