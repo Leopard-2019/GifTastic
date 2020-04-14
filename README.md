@@ -29,16 +29,6 @@ were also completed.
 
 ![](assets/images/gif5.png)
 
-7. The assignment was fully Deploy to Github Pages.
+7. This app is fully Deployed to Github Pages.
 
-8. The minimum requirements has been achieved as described in the assignment's instructions.
-
-9. As a part of the Bonus, only the following items were completed:
-
-   1. Ensure your app is fully mobile responsive.
-
-   2. Allow users to request additional gifs to be added to the page.
-   * Each request should ADD 10 gifs to the page, NOT overwrite the existing gifs.
-
-   3. List additional metadata (title, tags, etc) for each gif in a clean and readable format.
    
