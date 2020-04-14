@@ -27,7 +27,7 @@ were also completed.
 
 ![](assets/images/gif3.png)
 
-![](assets/images/gif4.png)
+![](assets/images/gif5.png)
 
 7. The assignment was fully Deploy to Github Pages.
 
