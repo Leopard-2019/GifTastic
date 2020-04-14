@@ -10,6 +10,8 @@ were also completed.
 
 1. An array of strings with animal names was chosen.as topics`. The  arrays has an initial length of 7.
 
+![])assets/images/gif1.png)
+
 
 2.  Based on the array chosen, etc the  buttons in your HTML file were created. A loop that appends a button for each string in the array.
 
