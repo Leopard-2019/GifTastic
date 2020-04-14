@@ -17,6 +17,8 @@ were also completed.
 
 3. When clicks on a button, the page  grab 10 static, non-animated gif images from the GIPHY API and place them on the page.
 
+![](assets/images/gif2.png)
+
 4. When the user clicks one of the still GIPHY images, the gif is animated. If the user clicks the gif again, it gift stop playing.
 
 5. Under every gif, the rating, title and source are displayed.
