@@ -1,8 +1,4 @@
 $(document).ready(function () {
-<<<<<<< HEAD
-=======
-    
->>>>>>> 31537bb5ea66b4255f16bb78b158932be9e67ec8
     // Initial array of animals
 
     let topics = ["lion", "tiger", "gorila", "leopard", "elefant", "giraffe", "koala"];
@@ -15,12 +11,6 @@ $(document).ready(function () {
     // Function for displaying animals's buttons
 
     function addButtons() {
-<<<<<<< HEAD
-=======
-        
-    // Deleting the animals buttons prior to adding new animals buttons
-    // (this is necessary otherwise we will have repeat buttons)
->>>>>>> 31537bb5ea66b4255f16bb78b158932be9e67ec8
 
         // Deleting the animals buttons prior to adding new animals buttons
         // (this is necessary otherwise we will have repeat buttons)
@@ -80,10 +70,6 @@ $(document).ready(function () {
     addButtons();
 
     // function named "engine" that basically perform the AJAX request, contructs the queryURL
-<<<<<<< HEAD
-
-=======
->>>>>>> 31537bb5ea66b4255f16bb78b158932be9e67ec8
     $(document).on("click", ".animal", function engine() {
 
         // Grabbing and storing the data-animal property value from the button
@@ -159,19 +145,11 @@ $(document).ready(function () {
 
     });
 
-<<<<<<< HEAD
     //Click event on gifs with class of "kinematic" executes sDynamic function 
 
     $(document).on("click", ".kinematic", sDynamic);
 
     //Function accesses "data-state" attribute and depending on status, changes image source to "data-animate" or "data-static"
-=======
-    //Click event on gifs with class of "kinematic" executes sDynamic function.
-
-    $(document).on("click", ".kinematic", sDynamic);
-
-    //Function accesses "state" attribute and depending on status, changes image source to "data-animate" or "data-static"
->>>>>>> 31537bb5ea66b4255f16bb78b158932be9e67ec8
 
     function sDynamic() {
         var state = $(this).attr("state");
@@ -183,15 +161,9 @@ $(document).ready(function () {
             $(this).attr("state", "static");
         }
     };
-<<<<<<< HEAD
 
     //Function  to re-start the app.
 
-=======
-    
-    //Function  to re-start the app.
-    
->>>>>>> 31537bb5ea66b4255f16bb78b158932be9e67ec8
     $('#str1').on('click', function rStart() {
         window.location.reload(false);
     });
